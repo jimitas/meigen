@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人生を楽にする哲学集 | Life Philosophy</title>
+    <meta name="description" content="日々の生活を穏やかに、心を軽くする哲学の言葉たち。古今東西の知恵を、あなたの人生に。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&family=Shippori+Mincho:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <div class="header-icon">☯</div>
+            <h1>人生を楽にする哲学集</h1>
+            <p class="subtitle">心を軽くする、古今東西の知恵</p>
+        </header>
+
+        <main class="main-content">
+            <section class="philosophy-card featured" id="featuredCard">
+                <div class="card-decoration"></div>
+                <blockquote class="quote" id="mainQuote">
+                    <p id="quoteText">「完璧を目指すより、まず終わらせろ」</p>
+                    <cite id="quoteAuthor">— マーク・ザッカーバーグ</cite>
+                </blockquote>
+                <div class="card-insight" id="cardInsight">
+                    <h3>💡 この言葉が教えてくれること</h3>
+                    <p id="insightText">完璧主義は時に私たちを立ち止まらせます。100点を目指して何も始められないより、60点でも形にすることが大切。完成させてから改善すればいいのです。</p>
+                </div>
+                <div class="card-actions">
+                    <button class="btn-favorite" id="btnFavorite" title="お気に入り">
+                        <span class="heart">♡</span>
+                    </button>
+                    <button class="btn-share" id="btnShare" title="共有">
+                        <span>↗</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="controls">
+                <button class="btn-main" id="btnNext">
+                    <span class="btn-icon">✨</span>
+                    次の哲学を見る
+                </button>
+            </div>
+
+            <section class="category-section">
+                <h2>カテゴリーから探す</h2>
+                <div class="category-grid">
+                    <button class="category-btn active" data-category="all">
+                        <span class="cat-icon">🌈</span>
+                        <span class="cat-name">すべて</span>
+                    </button>
+                    <button class="category-btn" data-category="work">
+                        <span class="cat-icon">💼</span>
+                        <span class="cat-name">仕事・キャリア</span>
+                    </button>
+                    <button class="category-btn" data-category="relationship">
+                        <span class="cat-icon">🤝</span>
+                        <span class="cat-name">人間関係</span>
+                    </button>
+                    <button class="category-btn" data-category="self">
+                        <span class="cat-icon">🪷</span>
+                        <span class="cat-name">自分自身</span>
+                    </button>
+                    <button class="category-btn" data-category="life">
+                        <span class="cat-icon">🌱</span>
+                        <span class="cat-name">人生・生き方</span>
+                    </button>
+                    <button class="category-btn" data-category="stress">
+                        <span class="cat-icon">☁️</span>
+                        <span class="cat-name">ストレス対処</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="favorites-section" id="favoritesSection">
+                <h2>💖 お気に入りの哲学</h2>
+                <div class="favorites-list" id="favoritesList">
+                    <p class="empty-message">まだお気に入りがありません<br>♡ボタンで保存しましょう</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>心が軽くなりますように 🍃</p>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+人生を楽にする哲学 - Claude
